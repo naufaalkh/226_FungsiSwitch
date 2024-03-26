@@ -49,8 +49,31 @@ int main()
         cin >> pilihan;
 
         switch (pilihan)
+        {
+            case 1:
+            inputData();
+            cout << "Hasil penjumlahan =" << penjumlahan(bilangan1, bilangan2) << endl;
 
-      
-    }
+            case 2:
+            inputData();
+            cout << "Hasil pengurangan =" << pengurangan(bilangan1, bilangan2) << endl;
+
+            case 3:
+            inputData();
+            cout << "Hasil perkalian =" << perkalian(bilangan1, bilangan2) << endl;
+
+            case 4:
+            inputData();
+            cout << "Hasil pembagian =" << pembagian(bilangan1, bilangan2) << endl;
+
+            case 5:
+                break;
+
+            default:
+                cout << "Pilihan tidak ada" << endl;
+                break;
+        }
+    } while (pilihan !=5);
+    
 
 }
