@@ -11,7 +11,13 @@ void inputData()
     cin >> bilangan2;
 }
 
+// input variabel lokal
 int penjumlahan(int a, int b)
 {
     return a + b;
+}
+
+int pengurangan(int a, int b)
+{
+    return a - b;
 }
