@@ -10,3 +10,8 @@ void inputData()
     cout << "Masukkan bilangan kedua :";
     cin >> bilangan2;
 }
+
+int penjumlahan(int a, int b)
+{
+    return a + b;
+}
